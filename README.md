@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 crypto-competition
 ==============================
 
 Crypto Competition on kaggle
+=======
+Crpyto_Competition
+==============================
+
+Kaggle competition for crypto
+>>>>>>> 1e5ee34e5b9128d0db4c6a6fae98cef84ea13552
 
 Project Organization
 ------------

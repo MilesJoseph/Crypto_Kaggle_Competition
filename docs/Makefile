@@ -77,17 +77,28 @@ qthelp:
 	@echo
 	@echo "Build finished; now you can run "qcollectiongenerator" with the" \
 	      ".qhcp project file in $(BUILDDIR)/qthelp, like this:"
+<<<<<<< HEAD
 	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/crypto-competition.qhcp"
 	@echo "To view the help file:"
 	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/crypto-competition.qhc"
+=======
+	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/Crypto_Competition.qhcp"
+	@echo "To view the help file:"
+	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/Crypto_Competition.qhc"
+>>>>>>> 1e5ee34e5b9128d0db4c6a6fae98cef84ea13552
 
 devhelp:
 	$(SPHINXBUILD) -b devhelp $(ALLSPHINXOPTS) $(BUILDDIR)/devhelp
 	@echo
 	@echo "Build finished."
 	@echo "To view the help file:"
+<<<<<<< HEAD
 	@echo "# mkdir -p $$HOME/.local/share/devhelp/crypto-competition"
 	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/crypto-competition"
+=======
+	@echo "# mkdir -p $$HOME/.local/share/devhelp/Crypto_Competition"
+	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/Crypto_Competition"
+>>>>>>> 1e5ee34e5b9128d0db4c6a6fae98cef84ea13552
 	@echo "# devhelp"
 
 epub:

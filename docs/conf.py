@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 #
+<<<<<<< HEAD
 # crypto-competition documentation build configuration file, created by
+=======
+# Crpyto_Competition documentation build configuration file, created by
+>>>>>>> 1e5ee34e5b9128d0db4c6a6fae98cef84ea13552
 # sphinx-quickstart.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -41,7 +45,11 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
+<<<<<<< HEAD
 project = u'crypto-competition'
+=======
+project = u'Crpyto_Competition'
+>>>>>>> 1e5ee34e5b9128d0db4c6a6fae98cef84ea13552
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -164,7 +172,11 @@ html_static_path = ['_static']
 # html_file_suffix = None
 
 # Output file base name for HTML help builder.
+<<<<<<< HEAD
 htmlhelp_basename = 'crypto-competitiondoc'
+=======
+htmlhelp_basename = 'Crypto_Competitiondoc'
+>>>>>>> 1e5ee34e5b9128d0db4c6a6fae98cef84ea13552
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -184,8 +196,13 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
     ('index',
+<<<<<<< HEAD
      'crypto-competition.tex',
      u'crypto-competition Documentation',
+=======
+     'Crypto_Competition.tex',
+     u'Crpyto_Competition Documentation',
+>>>>>>> 1e5ee34e5b9128d0db4c6a6fae98cef84ea13552
      u"Miles Klingenberg", 'manual'),
 ]
 
@@ -215,7 +232,11 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
+<<<<<<< HEAD
     ('index', 'crypto-competition', u'crypto-competition Documentation',
+=======
+    ('index', 'Crypto_Competition', u'Crpyto_Competition Documentation',
+>>>>>>> 1e5ee34e5b9128d0db4c6a6fae98cef84ea13552
      [u"Miles Klingenberg"], 1)
 ]
 
@@ -229,9 +250,15 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
+<<<<<<< HEAD
     ('index', 'crypto-competition', u'crypto-competition Documentation',
      u"Miles Klingenberg", 'crypto-competition',
      'Crypto Competition on kaggle', 'Miscellaneous'),
+=======
+    ('index', 'Crypto_Competition', u'Crpyto_Competition Documentation',
+     u"Miles Klingenberg", 'Crpyto_Competition',
+     'Kaggle competition for crypto', 'Miscellaneous'),
+>>>>>>> 1e5ee34e5b9128d0db4c6a6fae98cef84ea13552
 ]
 
 # Documents to append as an appendix to all manuals.

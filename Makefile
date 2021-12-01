@@ -7,7 +7,11 @@
 PROJECT_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 BUCKET = [OPTIONAL] your-bucket-for-syncing-data (do not include 's3://')
 PROFILE = default
+<<<<<<< HEAD
 PROJECT_NAME = crypto-competition
+=======
+PROJECT_NAME = Crypto_Competition
+>>>>>>> 1e5ee34e5b9128d0db4c6a6fae98cef84ea13552
 PYTHON_INTERPRETER = python3
 
 ifeq (,$(shell which conda))
