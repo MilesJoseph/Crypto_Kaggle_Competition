@@ -1,5 +1,5 @@
 
-crypto-competition
+
 ==============================
 
 Crypto Competition on kaggle
