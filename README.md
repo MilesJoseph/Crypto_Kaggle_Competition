@@ -1,6 +1,6 @@
 ## Crypto Competition 
 
-```The repository that I have put together is for the G-Research Crypto Forecasting on Kaggle. The purpose of the competition is to forecast short term returns in 14 popular cryptocurrencies. The data for the competition goes back to 2018 and outside data is acceptable for this competition. ```
+```The repository that I have put together is for the G-Research Crypto Forecasting on Kaggle. The purpose of the competition is to forecast short term returns in 14 popular cryptocurrencies. The data for the competition goes back to 2018 and outside data is acceptable for this competition.```
 	
 	Some exeprts from the competition page itself; 
 
