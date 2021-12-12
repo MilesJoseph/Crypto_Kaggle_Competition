@@ -1,15 +1,18 @@
-# Test
+## Crypto Competition 
 
-==============================
+	The repository that I have put together is for the G-Research Crypto Forecasting on Kaggle. The purpose of the competition is to forecast short term returns in 14 popular cryptocurrencies. The data for the competition goes back to 2018 and outside data is acceptable for this competition. 
+	
+	Some exeprts from the competition page itself; 
 
-Crypto Competition on kaggle
-=======
-Crpyto_Competition
-==============================
+	The simultaneous activity of thousands of traders ensures that most signals will be transitory, persistent alpha will be exceptionally difficult to find, and the danger of overfitting will be considerable. In addition, since 2018, interest in the cryptomarket has exploded, so the volatility and correlation structure in our data are likely to be highly non-stationary. The successful contestant will pay careful attention to these considerations, and in the process gain valuable insight into the art and science of financial forecasting.
 
-Kaggle competition for crypto
->>>>>>> 1e5ee34e5b9128d0db4c6a6fae98cef84ea13552
-
+	G-Research is Europe’s leading quantitative finance research firm. We have long explored the extent of market prediction possibilities, making use of machine learning, big data, and some of the most advanced technology available. Specializing in data science and AI education for workforces, Cambridge Spark is partnering with G-Research for this competition. Watch our introduction to the competition below:
+	
+	There is a video available for viewing to contextualize the competition. 
+	
+## Evaluation 
+	
+	
 Project Organization
 ------------
 
