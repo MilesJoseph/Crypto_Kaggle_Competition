@@ -11,6 +11,19 @@
 ```There is a video available for viewing to contextualize the competition.```
 	
 ## Evaluation
+
+```The evaluation of the competition is based on a weighted Pearson Correlation. The weight is defined by Gresearch of individual assets.```
+
+## Caveats 
+
+```Unfortunately, the test data is contained in the training data which makes the leaderboard for this competition worthless. This is from Julian Peller; 
+
+Below you can see a 18-line submission that overfits the public LB fully, using the fact that the test period is contained in the train data to get the closest point for each test row.¶
+It is not actually leaky because the fact that the LB is part of the public data was publicly disclosed by the organizers. In my opinion, though, the statement was not clear enough regarding the fact that the public LB test period was contained in the train.csv, but I guess it doesn't matter.
+
+I don't know the public test time range, but here I'm assuming that is starts from the placeholder and goes on. The placeholder test.csv starts at '2021-06-13 00:00:00'. I tried with the full train.csv but it takes a long time and it's probably going to fail the submission.
+
+The LB doesn't seem to be meaningful at all as long as we don't know which training data points are leaking into the public test set and which data points are not```
 	
 Project Organization
 ------------
