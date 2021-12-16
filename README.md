@@ -1,6 +1,8 @@
 
 # G-Research Crypto Compeition :moneybag:
 
+### :vertical_traffic_light: Light GBM with Optuna Hyperparameter Tuning and Purged Group Time Series 
+
 The repository that I have put together is for the G-Research Crypto Forecasting on Kaggle. The purpose of the competition is to forecast short term returns in 14 popular cryptocurrencies. The data for the competition goes back to 2018 and outside data is acceptable for this competition.
 
 Some exeprts from the competition page itself;
@@ -10,6 +12,15 @@ The simultaneous activity of thousands of traders ensures that most signals will
 G-Research is Europe’s leading quantitative finance research firm. We have long explored the extent of market prediction possibilities, making use of machine learning, big data, and some of the most advanced technology available. Specializing in data science and AI education for workforces, Cambridge Spark is partnering with G-Research for this competition. Watch our introduction to the competition below:
 
 There is a video available for viewing to contextualize the competition.
+
+Some of the main things I have done in this project; 
+
+     :rocket: Light GBM - Aside from the submission that everoyne has made at the top of the leaderboard which is noted in the caveat section I have put together an easy to follow Light GBM notebook in the Notebooks section that givve a detailed explanation of the data and algo. 
+     :electric_plug: Light GBM with GPU boost module - I also have under the notebooks section a notebook that gives a way to use Light GBM with GPU boost as well as an explanation on the module. Since the competition does not allow for internet to be used, I considered bringing in light GBM with GPU as a module from a .tar file but did not end up doing so since the leaderboard is useless, but it gives a good example of how to do so if you wanted. 
+     :hammer: Optuna - The main EDA and Model notebook also gives an explanation of hyperparameter tuning with Optuna and crossfold 
+      
+
+    
 
 ## Evaluation
 
@@ -32,12 +43,12 @@ The LB doesn't seem to be meaningful at all as long as we don't know which train
 
 So, all in all...kind of a bummer. I didn't realize there was an issue until near the end of my work when I looked at the leaderboard adn saw that the first few hundred people have perfect scores and did one minute of research. 
 
+Very helpful explanations from Julian Peller and much credit is due to him for giving an honest and transparent explantion. 
+
 
 ## Side Note
 
-The read me in the notebooks under the 'notebook' section have extensive explanations of my exploration and model development. 
-
-
+The read me in the notebooks under the 'notebook' section have extensive explanations of my exploration and model development with particularly detailed explanations of Light GBM.
 ## Project Organization
 
 The file organization of this project uses Cookie Cutter. Cookie Cutter is a great way to organize data science projects. For kaggle competitions, it ma be a little uneccessary, but it is helpful to get in the practice of using this structure for all personal projects or work.
