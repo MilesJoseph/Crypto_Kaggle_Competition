@@ -15,9 +15,9 @@ There is a video available for viewing to contextualize the competition.
 
 Some of the main things I have done in this project; 
 
-     :rocket: Light GBM - Aside from the submission that everoyne has made at the top of the leaderboard which is noted in the caveat section I have put together an easy to follow Light GBM notebook in the Notebooks section that givve a detailed explanation of the data and algo. 
-     :electric_plug: Light GBM with GPU boost module - I also have under the notebooks section a notebook that gives a way to use Light GBM with GPU boost as well as an explanation on the module. Since the competition does not allow for internet to be used, I considered bringing in light GBM with GPU as a module from a .tar file but did not end up doing so since the leaderboard is useless, but it gives a good example of how to do so if you wanted. 
-     :hammer: Optuna - The main EDA and Model notebook also gives an explanation of hyperparameter tuning with Optuna and crossfold 
+:rocket: Light GBM - Aside from the submission that everoyne has made at the top of the leaderboard which is noted in the caveat section I have put together an easy to follow Light GBM notebook in the Notebooks section that givve a detailed explanation of the data and algo. 
+:electric_plug: Light GBM with GPU boost module - I also have under the notebooks section a notebook that gives a way to use Light GBM with GPU boost as well as an explanation on the module. Since the competition does not allow for internet to be used, I considered bringing in light GBM with GPU as a module from a .tar file but did not end up doing so since the leaderboard is useless, but it gives a good example of how to do so if you wanted. 
+:hammer: Optuna - The main EDA and Model notebook also gives an explanation of hyperparameter tuning with Optuna and crossfold 
       
 
     
