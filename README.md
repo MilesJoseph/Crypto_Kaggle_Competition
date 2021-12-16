@@ -65,6 +65,11 @@ An explanation for why each of these notebooks are needed seperately is simple. 
 Each of the notebooks in the notebook section have acknowledgements for the notebooks that I took inspiration from. 
 
 
+## Improvements and Next Steps
+
+I need to improve on the main EDA and modeling notebook. Naturally, I would like to move up in the leaderboard with a model that does not include the test data within the training data. I think around 500 people have included the test data in the train data in their training so nearly everyone ahs a perfect score. 
+
+Better documentation and run time will be required, so we could try to implement the GPU module and do some more work on feature engineering. 
 ## Authors
 
 - Miles Klingenberg
