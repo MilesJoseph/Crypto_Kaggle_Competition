@@ -60,11 +60,15 @@ Noteable places to look in this file structure are the requirements and the note
 An explanation for why each of these notebooks are needed seperately is simple. The EDA and model notebook in the rules of this competition can not use the internet. Since we are using kaggle noteboks we have the internet option turned off in this notebook. At the time of writing this we are still testing with the additional notebook pertaining to Light GBM with GPU. This notebook downloads Light GBM with GPU and creates a .tar file. Ideally, I can import this .tar file as a module ithin the main model notebook to expedite the training time.
 
 
-## Authors
-
-- Miles Klingenberg
-
 ## Acknowledgements
 
 Each of the notebooks in the notebook section have acknowledgements for the notebooks that I took inspiration from. 
 
+
+## Authors
+
+- Miles Klingenberg
+
+References to; 
+
+- Julian Peller 
